@@ -7,20 +7,18 @@
     <link rel="stylesheet" src="styles.css">
 </head>
 <body>
-    <header>
-        <img src="/assets/Alura.png" alt="logo alura latam">
-    </header>
-    <section>
-        <textarea></textarea>
-        <p><img src="/assets/Vector.png" alt="signo de atención">Solo letras minúsculas y sin acentos</p>
-        <div>
-        <button id="btnEncriptar">Encriptar</button>
-        <button id="btnDesencriptar">Desencriptar</button>
+    <section class="seccion">
+        <img class="seccion__logo" src="/assets/Alura.png" alt="logo alura latam">
+        <textarea class="seccion__textarea"></textarea>
+        <p class="seccion__advertencia"><img src="/assets/Vector.png" alt="signo de atención">Solo letras minúsculas y sin acentos</p>
+        <div class="seccion__botones">
+            <button class="seccion__botones__encriptar" id="btnEncriptar">Encriptar</button>
+            <button class="seccion__botones__desencriptar" id="btnDesencriptar">Desencriptar</button>
         </div>
     </section>
-    <div>
-        <p></p>
-        <button id="btnCopiar">copiar</button>
+    <div class="ContenedorLateral">
+        <p class="ContenedorLateral__textoEncriptado"></p>
+        <button class="ContenedorLateral__botonCopiar"id="btnCopiar">copiar</button>
     </div>
     <script src="app.js"></script>
     <footer>
