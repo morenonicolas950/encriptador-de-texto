@@ -13,24 +13,24 @@
     <main>
     <section class="contenido">
         <div class="contenido__texto">
-            <textarea class="contenido__texto__textarea" placeholder="ingrese el texto aquí"></textarea>
+            <textarea id="textAreaCentral" class="contenido__texto__textarea" placeholder="ingrese el texto aquí"></textarea>
         </div>
         <div class="contenido__inferior">
             <p class="contenido__inferior__parrafo"><img src="./assets/Vector.png" alt="signo de atención">Solo letras minúsculas y sin acentos</p>
             <div class="contenido__inferior__botones">
-                <button class="contenido__inferior__botones__forma" >Encriptar</button>
-                <button class="contenido__inferior__botones__forma" >Desencriptar</button>
+                <button class="contenido__inferior__botones__forma" onclick="encriptar()">Encriptar</button>
+                <button class="contenido__inferior__botones__forma" onclick="desencriptar()">Desencriptar</button>
             </div>
         </div>
     </section>
     <div class="contenedorlateral">
-        <textarea class="contenedorlateral__textarea"></textarea>
-        <img class="contenedorlateral__imagen" src="./assets/Muñeco.png" alt="persona mirando con una lupa">
-        <div class="contenedorlateral__parrafos">
+        <textarea id="textAreaLateral"class="contenedorlateral__textarea"></textarea>
+        <img id="ImgMuñeco"class="contenedorlateral__imagen" src="./assets/Muñeco.png" alt="persona mirando con una lupa">
+        <div id="parrafosLaterales"class="contenedorlateral__parrafos">
             <p class="contenedorLateral__parrafoSuperior">Ningún mensaje fue encontrado</p>
             <p class="contenedorLateral__parrafoInferior">Ingresa el texto que desees encriptar o desencriptar.</p>
         </div>
-        <button class="contenedorlateral__btncopiar">Copiar</button>
+        <button id="btnCopiar" class="contenedorlateral__btncopiar">Copiar</button>
     </div>
     </main>
     <footer>
