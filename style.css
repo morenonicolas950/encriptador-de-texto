@@ -111,8 +111,11 @@ main{
 }
 .contenedorlateral__textarea{
     margin: 20px;
-    height: auto;
     border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    
 }
 .contenedorlateral__textarea:focus{
     outline: none;
@@ -188,8 +191,6 @@ footer{
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    color:var(--color-secundario)
+    color:var(--color-secundario);
 }
-
-
 

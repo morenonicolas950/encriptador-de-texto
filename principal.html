@@ -18,8 +18,8 @@
         <div class="contenido__inferior">
             <p class="contenido__inferior__parrafo"><img src="./assets/Vector.png" alt="signo de atención">Solo letras minúsculas y sin acentos</p>
             <div class="contenido__inferior__botones">
-                <button class="contenido__inferior__botones__forma" onclick="encriptar()">Encriptar</button>
-                <button class="contenido__inferior__botones__forma" onclick="desencriptar()">Desencriptar</button>
+                <button id="btnEncriptar" class="contenido__inferior__botones__forma" onclick="encriptar()">Encriptar</button>
+                <button id="btnDesencriptar" class="contenido__inferior__botones__forma" onclick="desencriptar()" >Desencriptar</button>
             </div>
         </div>
     </section>
@@ -30,7 +30,7 @@
             <p class="contenedorLateral__parrafoSuperior">Ningún mensaje fue encontrado</p>
             <p class="contenedorLateral__parrafoInferior">Ingresa el texto que desees encriptar o desencriptar.</p>
         </div>
-        <button id="btnCopiar" class="contenedorlateral__btncopiar">Copiar</button>
+        <button id="btnCopiar" class="contenedorlateral__btncopiar" onclick="copiarContenido()">Copiar</button>
     </div>
     </main>
     <footer>
