@@ -37,7 +37,7 @@ function encriptar(){
 
         ocultarElementos();
 
-        document.getElementById("textAreaLateral").style.height = "400px";
+        document.getElementById("textAreaLateral").style.height = "80%";
     
         document.getElementById("textAreaLateral").value = textoCifrado;
 
@@ -80,12 +80,12 @@ function desencriptar() {
 
     Limpiar("textAreaCentral");
 
-    document.getElementById("textAreaCentral").value = textoDesencriptado;
+    document.getElementById("textAreaLateral").style.height = "80%";
 
-    Limpiar("textAreaLateral");
+    document.getElementById("textAreaLateral").value = textoDesencriptado;
 
-    mostrarElementos();
-        
+    ocultarElementos();
+
          }
     }
 
@@ -113,7 +113,6 @@ document.getElementById("btnCopiar").style.display= "block";
 
 function mostrarElementos(){
 
-document.getElementById("ImgMuñeco").style.display= "block";
 
 document.getElementById("parrafosLaterales").style.display= "block";
 
