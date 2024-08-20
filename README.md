@@ -38,7 +38,7 @@ Las llaves de encriptación son las siguientes:</p>
 <h2>Tecnologías Utilizadas</h2>
 <ul>
   <li>HTML5: Estructura del proyecto.</li>
-  <li>CSS3: Estilos y diseño.</li>
+  <li>CSS3: Estilos, diseño y responsividad.</li>
   <li>JavaScript: Lógica de encriptación y desencriptación.</li>
 </ul>
 
