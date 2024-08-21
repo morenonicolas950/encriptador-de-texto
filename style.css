@@ -100,8 +100,6 @@ main{
     width: 37%;
     height: 52%;
     font-size: larger;
-
-
 }
 
 .contenedorlateral{
@@ -121,7 +119,6 @@ main{
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    
 }
 .contenedorlateral__textarea:focus{
     outline: none;
@@ -130,8 +127,7 @@ main{
 .contenedorlateral__imagen{
     height: auto;
     width: auto;
-    margin: 10px 50px;
-    
+    margin: 10px 50px; 
 }
 
 .contenedorlateral__parrafos{

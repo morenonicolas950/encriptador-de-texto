@@ -116,7 +116,7 @@ function mostrarElementos(){
 
 document.getElementById("parrafosLaterales").style.display= "block";
 
-document.getElementById("btnCopiar").style.display = "none" ;
+document.getElementById("btnCopiar").style.display = "none";
 }
 
 async function copiarContenido() {
@@ -129,13 +129,9 @@ async function copiarContenido() {
 
       alert('Contenido copiado al portapapeles');
 
-      /* Resuelto - texto copiado al portapapeles con éxito */
-
     } catch (error) {
 
       alert('Error al copiar: ', error);
-
-      /* Rechazado - fallo al copiar el texto al portapapeles */
 
     }
   }
